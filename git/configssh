@@ -1,0 +1,9 @@
+
+cd ~
+ls -ash
+ssh-keygen
+cd **/.ssh
+vim id_rsa
+clip < ~/.ssh/id_rsa.pub
+git config --global user.email "1506042595@qq.com"
+git config --global user.name "王一宁"
